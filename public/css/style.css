@@ -17,8 +17,22 @@ header, .project:not(:last-child) {
   text-decoration: underline;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(29, 8, 8);
+  color: white;
+  padding: 10px;
+  
+}
+
+.blog {
+  border: 1px solid black;
+  margin: 40px;
+}
+
+.blog-content {
+  margin: 20px;
+  font-size: 24px;
 }
